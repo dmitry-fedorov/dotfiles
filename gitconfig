@@ -1,8 +1,8 @@
 [user]
-	name = Henrik Nyh
-	email = henrik@nyh.se
+	name = Dmitrii Fedorov
+	email = dmitry.fedorov@auctionet.com
 [core]
-	excludesfile = /Users/henrik/.gitignore
+	excludesfile = /Users/dmitriifedorov/.gitignore
 	ignorecase = false
 	pager = less -R
 	hooksPath = /devbox/support/default_githooks
@@ -46,11 +46,3 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-
-# This next lines include Netlify's Git Credential Helper configuration in your Git configuration.
-[include]
-  path = /Users/henrik/.netlify/helper/git-config
-[pull]
-	rebase = true
-[rebase]
-	autoStash = true
