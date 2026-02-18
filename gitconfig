@@ -1,5 +1,5 @@
 [user]
-	name = Dmitrii Fedorov
+	name = Dmitry Fedorov
 	email = dmitry.fedorov@auctionet.com
 [core]
 	excludesfile = /Users/dmitriifedorov/.gitignore
@@ -46,3 +46,9 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/devbox/tmp/devbox/binwrappers/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/devbox/tmp/devbox/binwrappers/gh auth git-credential
